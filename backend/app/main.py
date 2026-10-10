@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from app.main import app
 app = FastAPI(
     title="Trace - AI Engineering Work Documentation Assistant",
     description="Backend API for automated engineering work documentation generation.",
